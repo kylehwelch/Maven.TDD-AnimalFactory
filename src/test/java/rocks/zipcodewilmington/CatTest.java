@@ -62,8 +62,8 @@ public class CatTest {
         Cat cat = new Cat(name, catBDay, id);
 
         //When
-        cat.setName("Pickle");
-        String expected = "Pickle";
+        cat.setName("Harold");
+        String expected = "Harold";
 
         //Then
         String actual = cat.getName();
