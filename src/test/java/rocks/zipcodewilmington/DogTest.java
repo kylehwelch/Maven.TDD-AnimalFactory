@@ -13,13 +13,13 @@ import java.util.Date;
  * @author leon on 4/19/18.
  */
 public class DogTest {
-    // TODO - Create tests for `new Dog(String name, Date birthDate, Integer id)`
-    // TODO - Create tests for `speak`
-    // TODO - Create tests for `setBirthDate(Date birthDate)`
-    // TODO - Create tests for `void eat(Food food)`
-    // TODO - Create tests for `Integer getId()`
-    // TODO - Create test to check Animal inheritance; google search `java instanceof keyword`
-    // TODO - Create test to check Mammal inheritance; google search `java instanceof keyword`
+    // DONE - Create tests for `new Dog(String name, Date birthDate, Integer id)`
+    // DONE - Create tests for `speak`
+    // DONE - Create tests for `setBirthDate(Date birthDate)`
+    // DONE - Create tests for `void eat(Food food)`
+    // DONE - Create tests for `Integer getId()`
+    // DONE - Create test to check Animal inheritance; google search `java instanceof keyword`
+    // DONE - Create test to check Mammal inheritance; google search `java instanceof keyword`
 
     //Given
 
