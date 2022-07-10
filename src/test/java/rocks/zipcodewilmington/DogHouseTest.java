@@ -34,6 +34,7 @@ public class DogHouseTest {
     @Test
     public void testAddDog(){
         //Given
+        DogHouse.clear();
         Date date = new Date("2015/10/21");
         Dog dog = new Dog("a", date, 1);
         //When
@@ -49,6 +50,7 @@ public class DogHouseTest {
     @Test
     public void testRemoveDogId(){
         //Given
+        DogHouse.clear();
         Date date = new Date("2015/10/21");
         Dog dog = new Dog("a", date, 1);
         //When
@@ -62,6 +64,7 @@ public class DogHouseTest {
     @Test
     public void testRemoveDogDog(){
         //Given
+        DogHouse.clear();
         Date date = new Date("2015/10/21");
         Dog dog = new Dog("a", date, 1);
         //When
@@ -75,6 +78,7 @@ public class DogHouseTest {
     @Test
     public void testGetDogById(){
         //Given
+        DogHouse.clear();
         Date date = new Date("2015/10/21");
         Dog dog1 = new Dog("a", date, 1);
         Dog dog2 = new Dog("a", date, 2);
@@ -89,6 +93,7 @@ public class DogHouseTest {
     @Test
     public void testGetNumDogs(){
         //Given
+        DogHouse.clear();
         Date date = new Date("2015/10/21");
         Dog dog1 = new Dog("a", date, 1);
         Dog dog2 = new Dog("a", date, 2);

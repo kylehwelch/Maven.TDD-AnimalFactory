@@ -29,6 +29,7 @@ public class CatHouseTest {
     @Test
     public void testAddCat(){
         //Given
+        CatHouse.clear();
         Date date = new Date("2015/10/21");
         Cat cat = new Cat("a", date, 1);
         //When
@@ -44,6 +45,7 @@ public class CatHouseTest {
     @Test
     public void testRemoveCatId(){
         //Given
+        CatHouse.clear();
         Date date = new Date("2015/10/21");
         Cat cat = new Cat("a", date, 1);
         //When
@@ -57,6 +59,7 @@ public class CatHouseTest {
     @Test
     public void testRemoveCatCat(){
         //Given
+        CatHouse.clear();
         Date date = new Date("2015/10/21");
         Cat cat = new Cat("a", date, 1);
         //When
@@ -70,6 +73,7 @@ public class CatHouseTest {
     @Test
     public void testGetCatById(){
         //Given
+        CatHouse.clear();
         Date date = new Date("2015/10/21");
         Cat cat1 = new Cat("a", date, 1);
         Cat cat2 = new Cat("b", date, 2);
@@ -84,6 +88,7 @@ public class CatHouseTest {
     @Test
     public void testGetNumCats(){
         //Given
+        CatHouse.clear();
         Date date = new Date("2015/10/21");
         Cat cat1 = new Cat("a", date, 1);
         Cat cat2 = new Cat("b", date, 2);
