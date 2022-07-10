@@ -3,6 +3,8 @@
 # Compiled class file
 *.class
 
+.ds_store
+
 # Log file
 *.log
 
