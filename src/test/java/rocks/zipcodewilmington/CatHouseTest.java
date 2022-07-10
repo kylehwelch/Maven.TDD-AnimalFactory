@@ -15,7 +15,7 @@ public class CatHouseTest {
     // DONE - Create tests for `void remove(Integer id)`
     // DONE - Create tests for `void remove(Cat cat)`
     // DONE - Create tests for `Cat getCatById(Integer id)`
-    // TODO - Create tests for `Integer getNumberOfCats()`
+    // DONE - Create tests for `Integer getNumberOfCats()`
 
     //Given
 
@@ -95,7 +95,4 @@ public class CatHouseTest {
         //Then
         Assert.assertEquals(actual, expected);
     }
-
-
-
 }

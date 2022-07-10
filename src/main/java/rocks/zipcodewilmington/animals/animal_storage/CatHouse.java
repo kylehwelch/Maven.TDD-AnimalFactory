@@ -1,6 +1,5 @@
 package rocks.zipcodewilmington.animals.animal_storage;
 
-
 import rocks.zipcodewilmington.animals.Cat;
 
 /**
